@@ -166,6 +166,7 @@ if res_root.is_dir():
         for f in sorted(d.iterdir(), key=lambda p: p.name):
             if f.is_file() and f.suffix.lower() in DOC_EXT:
                 title = re.sub(r"\s*[（(](简体|簡體|繁體|繁体)[）)]\s*", " ", f.stem).strip()
+                title = re.sub(r"^\d+[a-z]?[\s._-]+", "", title)   # "01 " sets the order, not shown
                 files.append({
                     "title": title,
                     "script": script_of(f.stem),
@@ -180,7 +181,7 @@ ICONS = ["icon.svg", "favicon-32.png", "apple-touch-icon.png", "icon-192.png", "
 missing = [i for i in ICONS if not (SITE / i).is_file()]
 if missing:
     warnings.append("site/ is missing the app icon file(s) " + ", ".join(missing) +
-                    " — copy them from sydacm-churches/docs/ into site/")
+                    " — they should be in site/")
 
 # ── stop here if anything is wrong ──────────────────────────────────────
 if warnings:

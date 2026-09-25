@@ -16,7 +16,7 @@ tagline_zh: 我们渴望帮你找到属灵的家
 contact_person: Rev David Yung
 contact_person_zh: 翁沛偉牧師
 address: 57 Princes Highway, Kogarah NSW 2217
-email: sydacm@gmail.com
+email: david@yungs.au
 phone: 0414 628 775
 
 # Optional — leave blank to hide
@@ -40,6 +40,8 @@ formspree:
 churches_data: https://sydacm.github.io/sydacm-churches/churches.geojson
 churches_site: https://sydacm.github.io/sydacm-churches/
 churches_update_form: https://github.com/sydacm/sydacm-churches/issues/new?template=update-listing.yml
+# Where "Update this listing" emails from churches go. Leave blank to use the email above.
+churches_update_email:
 
 # ── This website's own GitHub repository (used for the "Site admin" link)
 repo: sydacm/sydacm.github.io

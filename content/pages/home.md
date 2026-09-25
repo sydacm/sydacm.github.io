@@ -3,8 +3,11 @@ title: Home
 title_zh: 主页
 
 # ── The large banner at the top of the home page
-hero_title: Pioneering Chinese-language gospel work across Sydney
-hero_title_zh: 开拓中文福音工作
+hero_title: “Sir, we want to see Jesus.”
+hero_title_zh: 先生，我们愿意见耶稣。
+# Optional Bible reference shown under the banner title (leave blank for none)
+hero_ref: John 12:21 (CSB)
+hero_ref_zh: 约翰福音 12:21（和合本）
 hero_text: We connect Mandarin- and Cantonese-speaking Christians with Anglican churches across the Diocese of Sydney, so that more people may hear of Jesus Christ and find a church family.
 hero_text_zh: 我们联结悉尼教区内以国语、粤语聚会的圣公会教会，盼望更多华人听闻耶稣基督的福音，并找到属灵的家。
 # Optional photo behind the banner. Upload it to content/images/ and write e.g.  images/hero.jpg

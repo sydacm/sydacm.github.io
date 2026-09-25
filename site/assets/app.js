@@ -184,10 +184,12 @@ function loadLeaflet() {
 
 /* ── page pieces ───────────────────────────────────────── */
 function pageHead(p, withLede) {
-  const sub = alt(p, 'title');
+  // "heading:" (optional) is the big title on the page; "title:" is the short menu label
+  const k = (p.heading || p.heading_zh) ? 'heading' : 'title';
+  const sub = alt(p, k);
   return `<section class="page-head"><div class="wrap">
     ${sub ? `<p class="eyebrow">${esc(sub)}</p>` : ''}
-    <h1>${esc(tr(p, 'title'))}</h1>
+    <h1>${esc(tr(p, k))}</h1>
     ${withLede && bodyOf(p) ? `<div class="lede">${md(bodyOf(p))}</div>` : ''}
   </div></section>`;
 }
@@ -233,7 +235,8 @@ const VIEW = {
     return `
     <section class="hero${p.hero_image ? ' has-img' : ''}"${heroStyle}><div class="wrap hero-in">
       <p class="hero-eyebrow">${esc(tr(s, 'name'))}<span>${esc(alt(s, 'name'))}</span></p>
-      <h1>${esc(tr(p, 'hero_title'))}</h1>
+      <h1${isZh() ? ' style="max-width:none;word-break:keep-all;overflow-wrap:anywhere"' : ''}>${esc(tr(p, 'hero_title'))}</h1>
+      ${tr(p, 'hero_ref') ? `<p class="hero-ref" style="margin:-6px 0 28px;font-size:clamp(16px,1.6vw,19px);font-weight:600;letter-spacing:.04em;opacity:.85">— ${esc(tr(p, 'hero_ref'))}</p>` : ''}
       <p class="hero-text">${esc(tr(p, 'hero_text'))}</p>
       <div class="hero-cta">
         ${P.churches ? `<a class="btn btn-light" href="#/churches">${u().findChurch} →</a>` : ''}

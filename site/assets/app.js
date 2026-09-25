@@ -23,8 +23,8 @@ const UI = {
     pastEvents: '过往活动', moreInfo: '详情及报名',
     search: '搜索教会、地区或聚会时间', anyRegion: '所有地区', anyLang: '所有语言',
     shown: n => `显示 ${n} 间`, showOnMap: '在地图上显示', directions: '路线', details: '查看详情',
-    update: '资料有误？', legendHint: '点击类别只显示该类教会，再点一次恢复全部。',
-    fullData: '按语言及覆盖范围查看更多地图', dataNote1: '资料由各教会亲自核对。如贵教会资料有误，请按该教会下方的「资料有误？」提交更正。',
+    update: '更新资料', updateGh: 'GitHub 表格', legendHint: '点击类别只显示该类教会，再点一次恢复全部。',
+    fullData: '按语言及覆盖范围查看更多地图', dataNote1: '资料由各教会亲自核对。教会同工：如需更正贵教会资料，请按该教会下方的「更新资料」，系统会开启一封已填好现有资料的电邮，只需修改有变动的部分并发送即可，无需注册任何帐户。',
     dataNote2: '本页不刊登牧者私人电话，请联络堂区办公室。',
     mapFail: '地图无法载入，完整名单见下方。', dataFail: '教会资料暂时无法载入，请稍后再试。',
     docsEmpty: '文件即将上载，敬请期待。', allScripts: '全部', sc: '简体', tc: '繁體',
@@ -57,8 +57,8 @@ const UI = {
     pastEvents: 'Past events', moreInfo: 'Details and registration',
     search: 'Search church, suburb or service time', anyRegion: 'All regions', anyLang: 'All languages',
     shown: n => `${n} shown`, showOnMap: 'Show on map', directions: 'Directions', details: 'See details',
-    update: 'Is this wrong?', legendHint: 'Tap a category to show only those churches. Tap again to show all.',
-    fullData: 'More maps — by language and by coverage', dataNote1: 'Checked with each church. If your church’s entry is wrong, use “Is this wrong?” under it.',
+    update: 'Update this listing', updateGh: 'GitHub form', legendHint: 'Tap a category to show only those churches. Tap again to show all.',
+    fullData: 'More maps — by language and by coverage', dataNote1: 'Checked with each church. Church staff: to correct your entry, click “Update this listing” under your church. An email opens with your current details filled in — change what’s different and send. No account needed.',
     dataNote2: 'Ministers’ personal numbers are not published here — please contact the parish office.',
     mapFail: 'The map could not load. The full list is below.', dataFail: 'The church list could not load. Please try again shortly.',
     docsEmpty: 'Documents are being uploaded — please check back soon.', allScripts: 'All', sc: 'Simplified', tc: 'Traditional',
@@ -395,6 +395,24 @@ const AFTER = {
       // list — Chinese name first on the Chinese site
       const catVar = k => `var(--${k === 'congregation' ? 'cong' : k === 'translation' ? 'trans' : k === 'groups' ? 'group' : 'unk'})`;
       const upd = S.c.site.churches_update_form;
+      const updEmail = S.c.site.churches_update_email || S.c.site.email;
+      // A pre-filled email with the church's current details, so church staff only change what's different
+      const mailUpdate = (g) => {
+        const p = g.p, L = [];
+        L.push('Please correct anything below that is out of date, then send.');
+        L.push('请直接修改以下有误或已变更的资料，然后发送。', '');
+        L.push('Church 教会: ' + p.name + (p.name_zh ? ' ' + p.name_zh : ''));
+        g.sites.forEach(x => L.push('Address 地址: ' + (x.site ? x.site + ' — ' : '') + x.address));
+        L.push('', 'Services 聚会:');
+        String(p.services || '').split(';').map(x => x.trim()).filter(Boolean).forEach(x => L.push('  - ' + x));
+        L.push('', 'Parish office phone 办公室电话: ' + (p.phone || ''));
+        L.push('Parish office email 办公室电邮: ' + (p.email || ''));
+        L.push('Website 网站: ' + (p.website || ''), '');
+        L.push('Your name and role 您的姓名及职分: ', '');
+        L.push('(Please give parish office contacts only, not personal mobiles. 请只提供堂区办公室联络方式，勿提供私人手机。)');
+        return 'mailto:' + updEmail + '?subject=' + encodeURIComponent('Listing update 资料更新: ' + p.name)
+          + '&body=' + encodeURIComponent(L.join('\n'));
+      };
       rowsEl.innerHTML = G.map(g => {
         const p = g.p, first = isZh() && p.name_zh ? p.name_zh : p.name, second = isZh() && p.name_zh ? p.name : p.name_zh;
         const svc = String(p.services || '').split(';').map(x => x.trim()).filter(Boolean);
@@ -415,7 +433,8 @@ const AFTER = {
               ${p.website ? `<a href="${esc(web(p.website))}" target="_blank" rel="noopener">${esc(webLabel(p.website))}</a>` : ''}</p>
             <p class="acts"><button type="button" class="linkbtn" data-show="${g.i}">${U.showOnMap}</button>
               <a href="https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(g.sites[0].address)}" target="_blank" rel="noopener">${U.directions}</a>
-              ${upd ? `<a href="${esc(upd + (upd.includes('?') ? '&' : '?') + 'church=' + encodeURIComponent(p.name))}" target="_blank" rel="noopener">${U.update}</a>` : ''}</p>
+              ${updEmail ? `<a href="${esc(mailUpdate(g))}">${U.update}</a>` : ''}
+              ${upd ? `<a href="${esc(upd + (upd.includes('?') ? '&' : '?') + 'church=' + encodeURIComponent(p.name))}" target="_blank" rel="noopener">${U.updateGh}</a>` : ''}</p>
           </div></article>`;
       }).join('');
       G.forEach(g => { g.el = $('#c-' + g.i); g.hay = [g.p.name, g.p.name_zh, g.p.services, ...g.sites.map(s => s.address + ' ' + s.suburb + ' ' + s.site)].join(' ').toLowerCase(); });
@@ -567,6 +586,6 @@ fetch('content.json', { cache: 'no-cache' }).then(r => r.json()).then(c => {
     const open = $('#nav').classList.toggle('open'); $('#menu-btn').setAttribute('aria-expanded', String(open));
   });
 }).catch(() => {
-  $('#main').innerHTML = '<div class="wrap loading">网站暂时无法载入 · The site could not load. Email <a href="mailto:sydacm@gmail.com">sydacm@gmail.com</a></div>';
+  $('#main').innerHTML = '<div class="wrap loading">网站暂时无法载入 · The site could not load. Email <a href="mailto:david@yungs.au">david@yungs.au</a></div>';
 });
 })();

@@ -1,6 +1,11 @@
 ---
+# Short name, used in the menu
 title: Community Churches
 title_zh: 社区教会
+
+# The big heading at the top of the page
+heading: Churches with Chinese ministries in the Sydney Anglican Diocese
+heading_zh: 悉尼圣公会教区设有华文事工的教会
 ---
 
 <!--

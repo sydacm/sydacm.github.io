@@ -1,0 +1,1117 @@
+{
+ "type": "FeatureCollection",
+ "name": "Sydney Anglican Chinese congregations",
+ "metadata": {
+  "source": "Sydney Anglican Chinese Ministry — sydacm.com.au",
+  "licence": "CC BY 4.0",
+  "note": "Public contacts only. Ministers' personal numbers are not published here.",
+  "categories": {
+   "congregation": "Holds a service in Chinese, including bilingual services",
+   "translation": "English service with live or AI translation",
+   "groups": "Chinese Bible study or fellowship, no Chinese service",
+   "unknown": "Listed historically, not yet confirmed by the church"
+  },
+  "coordinates": "Derived from street addresses (about 100 m accuracy) except St Paul's Carlingford, supplied by the church."
+ },
+ "features": [
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     151.0052,
+     -33.7332
+    ]
+   },
+   "properties": {
+    "name": "Arise Anglican Church",
+    "name_zh": "",
+    "site": "",
+    "address": "88 Cecil Avenue, Castle Hill NSW 2154",
+    "suburb": "Castle Hill",
+    "region": "North-West",
+    "category": "translation",
+    "languages": [
+     "Chinese"
+    ],
+    "sunflower": true,
+    "services": "Sun 10:30am kids and youth programmes; Sun 12:00pm main gathering — Chinese by Sunflower",
+    "translation": "confirmed by Chu Hao, who makes Sunflower, 21 Sep. Which service carries it isn't stated.",
+    "phone": "",
+    "email": "ariseanglican@gmail.com",
+    "website": "ariseanglican.au"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     151.1842,
+     -33.809
+    ]
+   },
+   "properties": {
+    "name": "Artarmon Anglican (St Basil's)",
+    "name_zh": "聖公會聖巴素堂",
+    "site": "",
+    "address": "6 Broughton Rd, Artarmon NSW 2064",
+    "suburb": "Artarmon",
+    "region": "North",
+    "category": "congregation",
+    "languages": [
+     "Mandarin",
+     "Cantonese"
+    ],
+    "sunflower": false,
+    "services": "Sun 9:30am English; Sun 10:30am Mandarin/Cantonese; Sun 5:00pm evening church",
+    "translation": "",
+    "phone": "(02) 9412 1315",
+    "email": "",
+    "website": "artarmonchurch.org"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     151.0336,
+     -33.8478
+    ]
+   },
+   "properties": {
+    "name": "Auburn & Newington Anglican Churches",
+    "name_zh": "",
+    "site": "St Philip's Auburn",
+    "address": "48 Hall Street, Auburn NSW 2144",
+    "suburb": "Auburn",
+    "region": "West",
+    "category": "unknown",
+    "languages": [],
+    "sunflower": false,
+    "services": "Sun 10:00am English with ESL help",
+    "translation": "",
+    "phone": "",
+    "email": "office@auburnanglican.org",
+    "website": "auburnanglican.org"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     151.074,
+     -33.828
+    ]
+   },
+   "properties": {
+    "name": "Auburn & Newington Anglican Churches",
+    "name_zh": "",
+    "site": "Newington Wentworth Point",
+    "address": "Wentworth Point High School, 7 Burroway Rd, Wentworth Point NSW 2127",
+    "suburb": "Wentworth Point",
+    "region": "West",
+    "category": "unknown",
+    "languages": [],
+    "sunflower": false,
+    "services": "Sun 10:00am English with ESL help",
+    "translation": "",
+    "phone": "",
+    "email": "office@auburnanglican.org",
+    "website": "auburnanglican.org"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     150.902,
+     -33.7648
+    ]
+   },
+   "properties": {
+    "name": "Blacktown Anglican Church",
+    "name_zh": "",
+    "site": "",
+    "address": "Cnr Richmond Rd & Orallo Ave (27 Richmond Road), Blacktown NSW 2148",
+    "suburb": "Blacktown",
+    "region": "West",
+    "category": "translation",
+    "languages": [
+     "Mandarin"
+    ],
+    "sunflower": true,
+    "services": "Sun 8:00am English; Sun 10:00am English WITH MANDARIN TRANSLATION; Sun 1:00pm Sudanese (Arabic and English); Sun 6:00pm English; Wed 10:00am English (monthly)",
+    "translation": "Mandarin translation at the 10:00am service",
+    "phone": "",
+    "email": "",
+    "website": "bac.org.au"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     151.1381,
+     -33.9532
+    ]
+   },
+   "properties": {
+    "name": "Brighton-Rockdale Anglican Church",
+    "name_zh": "悉尼基督聖道華人教會",
+    "site": "Rockdale",
+    "address": "431 Princes Highway, Rockdale NSW 2216",
+    "suburb": "Rockdale",
+    "region": "South",
+    "category": "congregation",
+    "languages": [
+     "Mandarin"
+    ],
+    "sunflower": false,
+    "services": "Sun 10:30am–12:30pm Mandarin",
+    "translation": "",
+    "phone": "",
+    "email": "",
+    "website": "stcacm.org"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     151.0421,
+     -33.7481
+    ]
+   },
+   "properties": {
+    "name": "Brighton-Rockdale Anglican Church",
+    "name_zh": "悉尼基督聖道華人教會",
+    "site": "West Pennant Hills",
+    "address": "41–43 Eaton Rd, West Pennant Hills NSW 2125",
+    "suburb": "West Pennant Hills",
+    "region": "North-West",
+    "category": "congregation",
+    "languages": [
+     "Mandarin"
+    ],
+    "sunflower": false,
+    "services": "Sun 10:30am–12:30pm Mandarin",
+    "translation": "",
+    "phone": "",
+    "email": "",
+    "website": "stcacm.org"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     151.1521,
+     -33.9601
+    ]
+   },
+   "properties": {
+    "name": "Brighton-Rockdale Anglican Church",
+    "name_zh": "悉尼基督聖道華人教會",
+    "site": "Brighton-Le-Sands",
+    "address": "1 Trafalgar Street, Brighton-Le-Sands NSW 2216",
+    "suburb": "Brighton-Le-Sands",
+    "region": "South",
+    "category": "congregation",
+    "languages": [
+     "Mandarin"
+    ],
+    "sunflower": false,
+    "services": "Sun 10:30am–12:30pm Mandarin",
+    "translation": "",
+    "phone": "",
+    "email": "",
+    "website": "stcacm.org"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     150.9372,
+     -33.8958
+    ]
+   },
+   "properties": {
+    "name": "Cabramatta Anglican Church",
+    "name_zh": "卡拉馬打／卡市聖公會",
+    "site": "",
+    "address": "42 Cumberland St, Cabramatta NSW 2166",
+    "suburb": "Cabramatta",
+    "region": "South-West",
+    "category": "congregation",
+    "languages": [
+     "Mandarin",
+     "Cantonese"
+    ],
+    "sunflower": false,
+    "services": "Sun 9:00am English; Sun 9:00am Mandarin; Sun 11:00am Cantonese; Sun 11:00am Vietnamese; Fri 7:00pm youth (school terms)",
+    "translation": "",
+    "phone": "",
+    "email": "",
+    "website": "cabra.church"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     151.2313,
+     -33.9173
+    ]
+   },
+   "properties": {
+    "name": "FOCUS UNSW",
+    "name_zh": "大學基督教會",
+    "site": "",
+    "address": "Keith Burrows Theatre J14, UNSW Kensington NSW 2052",
+    "suburb": "UNSW Kensington",
+    "region": "East",
+    "category": "groups",
+    "languages": [
+     "Mandarin",
+     "Cantonese"
+    ],
+    "sunflower": false,
+    "services": "Sun 10:00am FOCUS Church English (Keith Burrows Theatre J14); Fri 7:00pm Mandarin Bible study (Library 191); Fri 7:00pm Cantonese Bible study (Blockhouse G15); Wed & Thu 11:00am International Bible study",
+    "translation": "",
+    "phone": "",
+    "email": "",
+    "website": "campusbiblestudy.org/focus"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     151.0878,
+     -33.9769
+    ]
+   },
+   "properties": {
+    "name": "Grove Church, Hurstville Grove",
+    "name_zh": "",
+    "site": "Hurstville Grove",
+    "address": "Cnr Hillcrest Avenue & Lansdowne Street, Hurstville Grove NSW 2220",
+    "suburb": "Hurstville Grove",
+    "region": "South",
+    "category": "translation",
+    "languages": [
+     "Chinese"
+    ],
+    "sunflower": true,
+    "services": "Sun 8:00am traditional Anglican; Sun 10:30am all ages w/ children's programme; Sun 5:00pm all ages",
+    "translation": "used during the service. Church also runs a Chinese Bible study group.",
+    "phone": "",
+    "email": "office@grovechurch.org.au",
+    "website": "grovechurch.org.au"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     151.0792,
+     -33.9824
+    ]
+   },
+   "properties": {
+    "name": "Grove Church, Hurstville Grove",
+    "name_zh": "",
+    "site": "Oatley",
+    "address": "57 Rosa Street, Oatley NSW 2223",
+    "suburb": "Oatley",
+    "region": "South",
+    "category": "translation",
+    "languages": [
+     "Chinese"
+    ],
+    "sunflower": true,
+    "services": "Sun 8:00am traditional Anglican; Sun 10:30am all ages w/ children's programme; Sun 5:00pm all ages",
+    "translation": "used during the service. Church also runs a Chinese Bible study group.",
+    "phone": "",
+    "email": "office@grovechurch.org.au",
+    "website": "grovechurch.org.au"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     151.1112,
+     -33.7108
+    ]
+   },
+   "properties": {
+    "name": "Hornsby Anglican Chinese Church",
+    "name_zh": "宏士比華人聖公會",
+    "site": "",
+    "address": "Wahroonga Anglican – Pearces Corner, 1711 Pacific Highway, Wahroonga NSW 2076",
+    "suburb": "Wahroonga",
+    "region": "North",
+    "category": "congregation",
+    "languages": [
+     "Mandarin"
+    ],
+    "sunflower": false,
+    "services": "Sun 11:45am Mandarin 國語主日崇拜; Sun 11:45am English fellowship service",
+    "translation": "",
+    "phone": "",
+    "email": "",
+    "website": "hacc.org.au"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     151.0431,
+     -33.8641
+    ]
+   },
+   "properties": {
+    "name": "Lidcombe Anglican Church",
+    "name_zh": "基督教禮勤聖公會",
+    "site": "",
+    "address": "Cnr Mark & Taylor Streets, Lidcombe NSW 2141",
+    "suburb": "Lidcombe",
+    "region": "West",
+    "category": "congregation",
+    "languages": [
+     "Mandarin",
+     "Cantonese"
+    ],
+    "sunflower": false,
+    "services": "Sun 10:00am English; Sun 10:00am Mandarin; Sun 10:00am kids' church; Sun 11:30am Cantonese; Sun 11:30am Korean",
+    "translation": "",
+    "phone": "(02) 8021 8035",
+    "email": "",
+    "website": "lac.org.au"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     151.0475,
+     -33.9878
+    ]
+   },
+   "properties": {
+    "name": "Lugarno Anglican Church",
+    "name_zh": "",
+    "site": "",
+    "address": "3A Old Forest Rd, Lugarno NSW 2210",
+    "suburb": "Lugarno",
+    "region": "South",
+    "category": "congregation",
+    "languages": [
+     "Mandarin"
+    ],
+    "sunflower": false,
+    "services": "Sun 9:30am English service 上午9:30英语聚会 (with kids' program 主日聚会及儿童主日学); Sun 11:30am MANDARIN service 上午11:30国语聚会 (with kids' program); Sun 10:00am English classes 英语班 (school term 学校开学期间); every 2nd Fri 3–5pm primary school group K–Y6 儿童活动 (school term); Fri 5:30–8pm secondary school group Y5–12 青少年活动 (school term)",
+    "translation": "",
+    "phone": "",
+    "email": "",
+    "website": "lugarnoanglican.org.au"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     150.8481,
+     -34.0382
+    ]
+   },
+   "properties": {
+    "name": "Minto Anglican Church",
+    "name_zh": "明道聖公會",
+    "site": "",
+    "address": "2 Redfern Road (cnr Pembroke Rd), Minto NSW 2566",
+    "suburb": "Minto",
+    "region": "South-West",
+    "category": "congregation",
+    "languages": [
+     "Mandarin"
+    ],
+    "sunflower": false,
+    "services": "Sun 9:00am family service English (livestreamed); Sun 11:15am Mandarin 中文崇拜; Sun 6:00pm night service English",
+    "translation": "",
+    "phone": "(02) 9603 4425",
+    "email": "",
+    "website": "mintoanglican.church"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     150.9928,
+     -33.7618
+    ]
+   },
+   "properties": {
+    "name": "Norwest Anglican Church",
+    "name_zh": "西北聖公會",
+    "site": "",
+    "address": "19 Chapel Lane, Baulkham Hills NSW 2153",
+    "suburb": "Baulkham Hills",
+    "region": "North-West",
+    "category": "congregation",
+    "languages": [
+     "Mandarin"
+    ],
+    "sunflower": false,
+    "services": "Sun 8:30am English; Sun 10:30am English; Sun 1:00pm Mandarin 中文崇拜; Sun 4:30pm English; Sun 6:30pm English",
+    "translation": "",
+    "phone": "",
+    "email": "",
+    "website": "norwest.org"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     151.0872,
+     -33.9653
+    ]
+   },
+   "properties": {
+    "name": "Penshurst Anglican Church",
+    "name_zh": "磐石聖公會（聖約翰堂）",
+    "site": "",
+    "address": "2 Carrington Street, Penshurst NSW 2222",
+    "suburb": "Penshurst",
+    "region": "South",
+    "category": "congregation",
+    "languages": [
+     "Bilingual"
+    ],
+    "sunflower": false,
+    "services": "Sun 9:00am English; Sun 11:00am bilingual — joint worship and notices, then Chinese in the church and English in the hall",
+    "translation": "",
+    "phone": "(02) 9580 1217",
+    "email": "",
+    "website": "penshurstanglican.org"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     151.1618,
+     -33.7662
+    ]
+   },
+   "properties": {
+    "name": "Philadelphia Anglican Church",
+    "name_zh": "聖公會友愛堂",
+    "site": "",
+    "address": "9b Arnold Street, Killara NSW 2071 (Living Hope Anglican)",
+    "suburb": "Killara",
+    "region": "North",
+    "category": "congregation",
+    "languages": [
+     "Mandarin",
+     "Cantonese",
+     "Bilingual"
+    ],
+    "sunflower": false,
+    "services": "Sun 10:30am bilingual service — Cantonese and Mandarin 粵語及國語",
+    "translation": "",
+    "phone": "",
+    "email": "",
+    "website": "pacsyd.org.au"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     150.9181,
+     -33.6868
+    ]
+   },
+   "properties": {
+    "name": "Rouse Hill Anglican Church",
+    "name_zh": "",
+    "site": "",
+    "address": "Cnr Adelphi St & Mile End Rd, Rouse Hill NSW 2155",
+    "suburb": "Rouse Hill",
+    "region": "North-West",
+    "category": "translation",
+    "languages": [
+     "Chinese"
+    ],
+    "sunflower": true,
+    "services": "Sun 10:00am contemporary English — Chinese by Sunflower; Sun 5:00pm contemporary English",
+    "translation": "confirmed by Chu Hao, who makes Sunflower, 21 Sep. Which service carries it isn't stated.",
+    "phone": "(02) 8882 9989",
+    "email": "office@rhac.org.au",
+    "website": "rhac.org.au"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     151.0821,
+     -33.7731
+    ]
+   },
+   "properties": {
+    "name": "St Alban's Anglican Church Epping",
+    "name_zh": "愛平聖公會中文堂",
+    "site": "",
+    "address": "3 Pembroke St, Epping NSW 2121",
+    "suburb": "Epping",
+    "region": "North-West",
+    "category": "unknown",
+    "languages": [],
+    "sunflower": false,
+    "services": "Sun 8:00am Eucharist; Sun 10:00am Eucharist (also on Zoom); Sun 6:00pm Taizé (2nd Sun of Feb, Apr, Jun, Aug, Oct, Nov)",
+    "translation": "",
+    "phone": "",
+    "email": "",
+    "website": "eppinganglicans.org.au"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     151.2064,
+     -33.8733
+    ]
+   },
+   "properties": {
+    "name": "St Andrew's Cathedral",
+    "name_zh": "聖安德烈大教堂",
+    "site": "",
+    "address": "Cnr George & Bathurst Streets, Sydney NSW 2000",
+    "suburb": "Sydney",
+    "region": "City",
+    "category": "translation",
+    "languages": [
+     "Mandarin",
+     "Cantonese"
+    ],
+    "sunflower": true,
+    "services": "Sun 10:30am English service 英文主日崇拜 (AI translation + printed sermon translation 提供AI實時翻譯和紙質的講道翻譯); Sun 10:30am Cathedral Kids Sunday School (English) 兒童主日學（英文）; Sun 12:00pm Mandarin Bible study 中午12點普通話查經小組; Sun 8:30am Holy Communion BCP; Sun 5:00pm Cathedral Evenings; Mon & Thu 5:15pm Evensong; Wed 6:00pm healing service",
+    "translation": "10:30am service, plus printed sermon translation. QR-code AI interpreting also covers Mandarin, Cantonese, Korean, Japanese, Spanish.",
+    "phone": "",
+    "email": "",
+    "website": "sydneycathedral.com"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     151.1052,
+     -33.8142
+    ]
+   },
+   "properties": {
+    "name": "St Anne's Anglican Ryde",
+    "name_zh": "聖安妮聖公會",
+    "site": "",
+    "address": "42 Church Street, Ryde NSW 2112",
+    "suburb": "Ryde",
+    "region": "North-West",
+    "category": "congregation",
+    "languages": [
+     "Mandarin"
+    ],
+    "sunflower": false,
+    "services": "Sun 8:00am traditional English; Sun 10:00am contemporary English; Sun 10:00am Mandarin",
+    "translation": "",
+    "phone": "(02) 9809 1322",
+    "email": "",
+    "website": "stannes.org.au"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     151.1855,
+     -33.7842
+    ]
+   },
+   "properties": {
+    "name": "St Barnabas Anglican Church Roseville East",
+    "name_zh": "",
+    "site": "",
+    "address": "Cnr William Street & Macquarie Street, Roseville East NSW 2069",
+    "suburb": "Roseville East",
+    "region": "North",
+    "category": "translation",
+    "languages": [
+     "Mandarin"
+    ],
+    "sunflower": true,
+    "services": "Sun 9:00am traditional service; Sun 11:00am morning service with kids' church and youth group",
+    "translation": "used in the services. Church also runs a MANDARIN GROWTH GROUP, and posts Mandarin sermon translations on its website.",
+    "phone": "",
+    "email": "office@stbarneys.org.au",
+    "website": "stbarneys.org.au"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     151.1961,
+     -33.8836
+    ]
+   },
+   "properties": {
+    "name": "St Barnabas Broadway (Barneys)",
+    "name_zh": "",
+    "site": "",
+    "address": "57–61 Mountain St, Ultimo NSW 2007",
+    "suburb": "Ultimo",
+    "region": "City",
+    "category": "translation",
+    "languages": [
+     "Mandarin"
+    ],
+    "sunflower": false,
+    "services": "Sun 10:00am English w/ kids' programme and Mandarin translation; Sun 5:30pm English w/ Mandarin translation (supper 5:00pm)",
+    "translation": "",
+    "phone": "",
+    "email": "",
+    "website": "barneys.org.au"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     151.1022,
+     -33.9673
+    ]
+   },
+   "properties": {
+    "name": "St George's Hurstville",
+    "name_zh": "好士圍聖公會",
+    "site": "",
+    "address": "2 The Avenue, Hurstville NSW 2220",
+    "suburb": "Hurstville",
+    "region": "South",
+    "category": "congregation",
+    "languages": [
+     "Mandarin",
+     "Cantonese"
+    ],
+    "sunflower": false,
+    "services": "Wed 1:30pm English prayer book; Sat 3:00pm Cantonese; Sun 9:30am Cantonese; Sun 9:30am English; Sun 11:00am Mandarin; Sun 4:00pm Mandarin; Sun 4:00pm English",
+    "translation": "",
+    "phone": "(02) 9580 1482",
+    "email": "enquiry@stgeorgeshurstville.org.au",
+    "website": "stgeorgeshurstville.org.au"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     151.003,
+     -33.8718
+    ]
+   },
+   "properties": {
+    "name": "St John Mark Anglican Church Chester Hill",
+    "name_zh": "聖約翰馬可聖公會",
+    "site": "",
+    "address": "125 Proctor Parade, Chester Hill NSW 2162",
+    "suburb": "Chester Hill",
+    "region": "West",
+    "category": "translation",
+    "languages": [
+     "Chinese"
+    ],
+    "sunflower": true,
+    "services": "Sun 9:00am traditional (BCP); Sun 10:30am multicultural family service with Sunflower AI translation",
+    "translation": "10:30am service only. Now the church's ONLY Chinese provision.",
+    "phone": "",
+    "email": "",
+    "website": "chesterhillanglicanchurch.com"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     151.0032,
+     -33.8151
+    ]
+   },
+   "properties": {
+    "name": "St John's Anglican Cathedral Parramatta",
+    "name_zh": "基督教Parramatta圣公会圣约翰堂",
+    "site": "",
+    "address": "195 Church Street, Parramatta NSW 2150 — Chinese services in the Parish Hall",
+    "suburb": "Parramatta",
+    "region": "West",
+    "category": "congregation",
+    "languages": [
+     "Mandarin",
+     "Cantonese"
+    ],
+    "sunflower": false,
+    "services": "Sun 9:15am CANTONESE 粤语崇拜 (Parish Hall); Sun 11:00am MANDARIN 国语崇拜 (Parish Hall); Sun 8:00am English (Cathedral); 9:30am English (Cathedral); 9:30am Persian (Marsden Hall); 11:00am English (Cathedral); 4:00pm English (Parish Hall); 5:00pm English (Parish Hall); through the week 成长小组 growth groups, 信仰探索 faith exploration, 儿童事工 children's ministry, 青少年崇拜 youth worship, 线上英文班 online English classes, 欢乐时光 fellowship",
+    "translation": "",
+    "phone": "(02) 9891 0705; (02) 9891 0700",
+    "email": "chinesechurch@stjohnscathedral.org.au; office@stjohnscathedral.org.au",
+    "website": "chinese.stjohnscathedral.org.au"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     151.1006,
+     -33.9107
+    ]
+   },
+   "properties": {
+    "name": "St John's Anglican Church Campsie",
+    "name_zh": "金時聖公會",
+    "site": "",
+    "address": "26 Anglo Road, Campsie NSW 2194",
+    "suburb": "Campsie",
+    "region": "Inner West",
+    "category": "congregation",
+    "languages": [
+     "Mandarin"
+    ],
+    "sunflower": false,
+    "services": "Sun 10:00–11:30am Easy English (church building); Sun 10:00–11:30am Mandarin (hall)",
+    "translation": "",
+    "phone": "(02) 9718 2879",
+    "email": "",
+    "website": "campsiechurch.org.au"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     151.1234,
+     -33.7932
+    ]
+   },
+   "properties": {
+    "name": "St John's Anglican Church North Ryde",
+    "name_zh": "樂福愛聖公會",
+    "site": "",
+    "address": "152 Coxs Rd, North Ryde NSW 2113",
+    "suburb": "North Ryde",
+    "region": "North-West",
+    "category": "translation",
+    "languages": [
+     "Chinese"
+    ],
+    "sunflower": true,
+    "services": "Sun 9:00am English — Chinese by Sunflower",
+    "translation": "confirmed by Chu Hao, who makes Sunflower, 21 Sep. Which service carries it isn't stated.",
+    "phone": "(02) 9878 3974",
+    "email": "office@northrydeanglican.org.au",
+    "website": "northrydeanglican.org.au"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     151.0112,
+     -33.8332
+    ]
+   },
+   "properties": {
+    "name": "St Mark's Anglican Church Granville",
+    "name_zh": "聖公會格蘭維聖馬可堂",
+    "site": "",
+    "address": "39 Jamieson Street, Granville NSW 2142",
+    "suburb": "Granville",
+    "region": "West",
+    "category": "congregation",
+    "languages": [
+     "Mandarin",
+     "Cantonese"
+    ],
+    "sunflower": false,
+    "services": "Sun 9:00am English traditional APBA choral eucharist; Sun 11:00am Chinese (Mandarin and Cantonese); Sun 11:00am youth fellowship",
+    "translation": "",
+    "phone": "(02) 9637 1073",
+    "email": "office@stmarks.net.au",
+    "website": "stmarks.net.au"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     151.0402,
+     -33.7432
+    ]
+   },
+   "properties": {
+    "name": "St Matthew's Anglican Church West Pennant Hills",
+    "name_zh": "聖公會聖馬太堂",
+    "site": "",
+    "address": "1 New Line Road (cnr Castle Hill Rd), West Pennant Hills NSW 2125",
+    "suburb": "West Pennant Hills",
+    "region": "North-West",
+    "category": "congregation",
+    "languages": [
+     "Mandarin",
+     "Cantonese"
+    ],
+    "sunflower": true,
+    "services": "Sun 7:45am traditional Anglican; Sun 9:30am multi-generational English; Sun 11:30am Cantonese 粵語主日崇拜 with Mandarin by Sunflower; Sun 6:00pm contemporary English; Wed 10:30am traditional simplified Anglican",
+    "translation": "translates English into Chinese, and Cantonese into Mandarin, at the 11:30am service",
+    "phone": "(02) 8568 8773",
+    "email": "office@stmatts.org.au",
+    "website": "stmatts.au"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     151.2312,
+     -33.8905
+    ]
+   },
+   "properties": {
+    "name": "St Matthias Centennial Park",
+    "name_zh": "",
+    "site": "",
+    "address": "471–475 Oxford St, Paddington NSW 2021",
+    "suburb": "Paddington",
+    "region": "East",
+    "category": "translation",
+    "languages": [
+     "Chinese"
+    ],
+    "sunflower": true,
+    "services": "Sun 10:00am English w/ kids — Chinese by Sunflower; Sun 5:00pm English w/ kids",
+    "translation": "confirmed by Chu Hao, who makes Sunflower, 21 Sep. Which service carries it isn't stated.",
+    "phone": "",
+    "email": "",
+    "website": "matthias.church"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     151.0348,
+     -33.9196
+    ]
+   },
+   "properties": {
+    "name": "St Paul's Anglican Church Bankstown",
+    "name_zh": "賓士鎮聖公會聖保羅堂",
+    "site": "",
+    "address": "461 Chapel Rd, Bankstown NSW 2200",
+    "suburb": "Bankstown",
+    "region": "South-West",
+    "category": "congregation",
+    "languages": [
+     "Mandarin"
+    ],
+    "sunflower": false,
+    "services": "Sun 8:00am traditional English; Sun 10:00am Church at Ten contemporary English; Sun 2:00–3:30pm Mandarin 華語主日崇拜",
+    "translation": "",
+    "phone": "(02) 9790 1883",
+    "email": "",
+    "website": "bankstown.church"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     151.0481954,
+     -33.7760836
+    ]
+   },
+   "properties": {
+    "name": "St Paul's Anglican Church Carlingford",
+    "name_zh": "圣保罗圣公会 Carlingford 中文堂",
+    "site": "",
+    "address": "32 Moseley St, Carlingford NSW 2118",
+    "suburb": "Carlingford",
+    "region": "North-West",
+    "category": "congregation",
+    "languages": [
+     "Mandarin",
+     "Cantonese"
+    ],
+    "sunflower": false,
+    "services": "Sun 11:15am Mandarin 国语（普通话）崇拜, with Mandarin and Cantonese growth groups 并设有国语和粤语成长小组; activities for preschool, primary and secondary students 设有学前儿童、小学和中学生的活动",
+    "translation": "",
+    "phone": "",
+    "email": "",
+    "website": "stpaulsanglican.org.au/zh/services/"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     151.1331,
+     -33.9641
+    ]
+   },
+   "properties": {
+    "name": "St Paul's Anglican Church Kogarah",
+    "name_zh": "高嘉華聖公會聖保羅堂",
+    "site": "",
+    "address": "57 Princes Highway, Kogarah NSW 2217",
+    "suburb": "Kogarah",
+    "region": "South",
+    "category": "congregation",
+    "languages": [
+     "Bilingual"
+    ],
+    "sunflower": false,
+    "services": "Sun 9:00am CHINESE parallel service; Sun 9:15am ENGLISH service; Sunday school and Bible study after",
+    "translation": "",
+    "phone": "(02) 9587 5951",
+    "email": "contact@stpaulskogarah.com.au",
+    "website": "stpaulskogarah.com"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     151.1828,
+     -33.7972
+    ]
+   },
+   "properties": {
+    "name": "St Paul's Chatswood",
+    "name_zh": "",
+    "site": "",
+    "address": "1–5 View Street, Chatswood NSW 2067",
+    "suburb": "Chatswood",
+    "region": "North",
+    "category": "translation",
+    "languages": [
+     "Chinese"
+    ],
+    "sunflower": true,
+    "services": "Sun 9:00am English — Chinese by Sunflower; Sun 10:30am English",
+    "translation": "confirmed by Chu Hao, who makes Sunflower, 21 Sep. Which service carries it isn't stated.",
+    "phone": "(02) 8440 8400",
+    "email": "",
+    "website": "stpauls.org.au"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     151.0823,
+     -33.7903
+    ]
+   },
+   "properties": {
+    "name": "St Philip's Anglican Church Eastwood",
+    "name_zh": "活力聖公會",
+    "site": "",
+    "address": "29 Clanalpine St, Eastwood NSW 2122",
+    "suburb": "Eastwood",
+    "region": "North-West",
+    "category": "congregation",
+    "languages": [
+     "Mandarin",
+     "Cantonese"
+    ],
+    "sunflower": false,
+    "services": "Sun 8:00am English; 9:30am English; 9:30am Mandarin; 9:30am Korean; 11:15am Cantonese; 5:00pm Mandarin; 6:30pm English; plus St Mark's Ermington 8:30am & 10:00am English",
+    "translation": "",
+    "phone": "",
+    "email": "",
+    "website": "stphils.org.au"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     151.0332,
+     -33.8512
+    ]
+   },
+   "properties": {
+    "name": "St Thomas' Anglican Church Auburn",
+    "name_zh": "基督教聖公會聖多馬堂",
+    "site": "",
+    "address": "3A Provincial Street, Auburn NSW 2144",
+    "suburb": "Auburn",
+    "region": "West",
+    "category": "congregation",
+    "languages": [
+     "Mandarin"
+    ],
+    "sunflower": false,
+    "services": "Sun 9:00am English; Sun 10:30am Mandarin; Sun 6:00pm English contemporary",
+    "translation": "",
+    "phone": "",
+    "email": "stthomasauburn@gmail.com",
+    "website": "stthomasauburn.com.au"
+   }
+  }
+ ]
+}

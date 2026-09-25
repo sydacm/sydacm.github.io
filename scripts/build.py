@@ -208,6 +208,18 @@ for d in (res_root.iterdir() if res_root.is_dir() else []):
                 shutil.copy2(f, OUT / "resources" / d.name / f.name)
 (OUT / ".nojekyll").write_text("")
 
+# Stamp each asset link with a fingerprint of the file, e.g. app.css?v=3f9a1c2b,
+# so browsers fetch the new version as soon as it changes instead of a cached old one.
+import hashlib
+page = (OUT / "index.html").read_text(encoding="utf-8")
+for asset in ["assets/app.css", "assets/app.js", "icon.svg", "favicon-32.png",
+              "apple-touch-icon.png", "site.webmanifest"]:
+    f = OUT / asset
+    if f.is_file():
+        v = hashlib.sha1(f.read_bytes()).hexdigest()[:8]
+        page = page.replace(f'"{asset}"', f'"{asset}?v={v}"')
+(OUT / "index.html").write_text(page, encoding="utf-8")
+
 try:
     from zoneinfo import ZoneInfo
     today = datetime.datetime.now(ZoneInfo("Australia/Sydney")).date()

@@ -83,7 +83,7 @@ The **Community Churches** page reads the church list live from `sydacm-churches
 
 GitHub Pages can't send emails by itself, so the form uses **Formspree** (free for up to 50 messages a month).
 
-1. Go to **formspree.io** → sign up with `sydacm@gmail.com` → **New form**.
+1. Go to **formspree.io** → sign up with `david@yungs.au` → **New form**.
 2. It gives you an address like `https://formspree.io/f/abcdwxyz`.
 3. In `content/settings.md`, set `formspree: abcdwxyz` and commit.
 4. Send yourself a test message from the Contact page and confirm the email Formspree sends you.
